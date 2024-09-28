@@ -1,0 +1,27 @@
+.row{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    
+}
+.row img{
+    border-radius: 15px;
+    width:100%;
+    
+}
+.row div{
+    padding: 20px;
+
+}
+.right{
+    margin-left: auto;
+}
+.left{
+    margin-right: auto;
+}
+.menu div{
+    display: inline;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
