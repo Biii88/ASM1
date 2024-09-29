@@ -44,9 +44,7 @@
 .menu-2 p{
     font-size: 24px;
 }
-.menu-2 a{
-    font-size: 24px;
-}
+
 body {
 
     max-width: 1200px;
@@ -89,6 +87,12 @@ body {
     margin-right: 10px;
     bottom: 45px;
 }
-
+.menu-1 a{
+    position: relative ;
+    padding: 20px;
+    font-size: 24px;
+    margin-right: 10px;
+    bottom: 45px;
+}
 
     
