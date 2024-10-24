@@ -1,0 +1,68 @@
+.banner img {
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+}
+
+/* For mobile phones: */
+body {
+    .absolute {
+        position: absolute;
+        font-size: 17px;
+        left: 175px;
+        top: 80px;
+        color: blue;
+    }
+
+    .absolute-1 {
+        left: 170px;
+        top: 100px;
+        font-size: 25px;
+        position: absolute;
+        color: red;
+    }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+    body {
+        .absolute {
+            position: absolute;
+            font-size: 20px;
+            left: 290px;
+            top: 125px;
+            color: blue;
+        }
+
+        .absolute-1 {
+            left: 270px;
+            top: 150px;
+            font-size: 35px;
+            position: absolute;
+            color: red;
+        }
+    }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 987px) {
+    body {
+        .absolute {
+            position: absolute;
+            font-size: 33px;
+            left: 530px;
+            top: 240px;
+            color: blue;
+        }
+
+        .absolute-1 {
+            left: 500px;
+            top: 290px;
+            font-size: 55px;
+            position: absolute;
+            color: red;
+        }
+    }
+}
